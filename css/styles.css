@@ -29,6 +29,8 @@ header > h1 {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 10;
+    background-position: right bottom, left top;
+    
 
     background-blend-mode: multiply;
 }
@@ -36,11 +38,6 @@ header > h1 {
 
 main { text-align: center }
 
-.li::after {
-    content:"";
-   background-image: url('../img/smiles.webp')no-repeat;
-   
-    }
 
 article {
     border-radius: 4px;
